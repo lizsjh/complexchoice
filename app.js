@@ -113,7 +113,7 @@ botui.message.add({
     return botui.message.add({
         delay:1000,
         loading: true,
-        content:'Please type again.'
+        content:'Could you respond to the question again?'
     });
 }).then(function(){
     return botui.action.text({
